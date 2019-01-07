@@ -1,0 +1,68 @@
+html,body{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#road{
+	width: 800px;
+	height: 725px;
+	margin: auto;
+}
+
+#fire{
+	display: block;
+	margin-left: -20px;
+	display: none;
+}
+
+#car_img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#car{
+	width: 50px;
+	height: 100px;
+	margin:  622px auto auto 372px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#stone img{
+	margin-left: -8px;
+}
+
+#stone2 img{
+	margin-left: -8px;
+}
+#stone3 img{
+	margin-left: -8px;
+}
+
+#stone{
+	width: 100px;
+	height: 100px;
+	margin: -105px auto auto 350px;
+	position: absolute;
+	overflow: hidden;
+	z-index: 102;
+	/*visibility: hidden;*/
+}
+
+#stone2{
+	width: 100px;
+	height: 100px;
+	margin: -105px auto auto 150px;
+	position: absolute;
+	overflow: hidden;
+	/*visibility: hidden;*/
+}
+#stone3{
+	width: 100px;
+	height: 100px;
+	margin: -105px auto auto 550px;
+	position: absolute;
+	overflow: hidden;
+	/*visibility: hidden;*/
+}
